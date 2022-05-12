@@ -37,6 +37,7 @@ namespace practicaUD10
             this.lApellidos = new System.Windows.Forms.Label();
             this.lTelefono = new System.Windows.Forms.Label();
             this.lListasocios = new System.Windows.Forms.Label();
+            this.Guardar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tNombre
@@ -105,11 +106,21 @@ namespace practicaUD10
             this.lListasocios.TabIndex = 7;
             this.lListasocios.Text = "Lista socios: ";
             // 
+            // Guardar
+            // 
+            this.Guardar.Location = new System.Drawing.Point(601, 143);
+            this.Guardar.Name = "Guardar";
+            this.Guardar.Size = new System.Drawing.Size(75, 23);
+            this.Guardar.TabIndex = 9;
+            this.Guardar.Text = "Guardar";
+            this.Guardar.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Guardar);
             this.Controls.Add(this.lListasocios);
             this.Controls.Add(this.lTelefono);
             this.Controls.Add(this.lApellidos);
@@ -135,6 +146,7 @@ namespace practicaUD10
         private System.Windows.Forms.Label lApellidos;
         private System.Windows.Forms.Label lTelefono;
         private System.Windows.Forms.Label lListasocios;
+        private System.Windows.Forms.Button Guardar;
     }
 }
 

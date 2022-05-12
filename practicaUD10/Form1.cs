@@ -16,5 +16,10 @@ namespace practicaUD10
         {
             InitializeComponent();
         }
+
+        private void Guardar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
