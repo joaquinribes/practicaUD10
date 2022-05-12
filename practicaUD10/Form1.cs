@@ -21,5 +21,16 @@ namespace practicaUD10
         {
 
         }
+
+        private void Guardar_Click_1(object sender, EventArgs e)
+        {
+            string nombre, apellido, telefono;
+            nombre = tNombre.Text;
+            apellido = tApellidos.Text;
+            telefono = tTelefono.Text;
+            textBox3.Text = nombre + " " + apellido + " " + telefono;
+
+        }
+
     }
 }
