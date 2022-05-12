@@ -93,9 +93,9 @@ namespace practicaUD10
             this.lTelefono.AutoSize = true;
             this.lTelefono.Location = new System.Drawing.Point(505, 99);
             this.lTelefono.Name = "lTelefono";
-            this.lTelefono.Size = new System.Drawing.Size(55, 13);
+            this.lTelefono.Size = new System.Drawing.Size(35, 13);
             this.lTelefono.TabIndex = 6;
-            this.lTelefono.Text = "Teléfono: ";
+            this.lTelefono.Text = "Móvil:";
             // 
             // lListasocios
             // 
